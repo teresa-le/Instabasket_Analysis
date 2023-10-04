@@ -1,101 +1,101 @@
-product_id,product_name,count
-27845,Organic Whole Milk,4089
-49235,Organic Half & Half,2401
-30489,Original Hummus,2136
-27086,Half & Half,2061
-22035,Organic Whole String Cheese,1783
-35951,Organic Unsweetened Almond Milk,1671
-25890,Boneless Skinless Chicken Breasts,1522
-24838,Unsweetened Almondmilk,1498
-5785,Organic Reduced Fat 2% Milk,1449
-33731,Grated Parmesan,1412
-27344,Uncured Genoa Salami,1269
-18465,Organic Grade A Free Range Large Brown Eggs,1225
-11520,Large Alfresco Eggs,1214
-23909,2% Reduced Fat Milk,1138
-4210,Whole Milk,1120
-47144,Unsweetened Original Almond Breeze Almond Milk,1118
-4799,Shredded Parmesan,1109
-42736,Unsalted Butter,1107
-33000,Pure Irish Butter,1078
-38689,Organic Reduced Fat Milk,1044
-30233,Organic Large Brown Grade AA Cage Free Eggs,1034
-7781,Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,1011
-40604,Feta Cheese Crumbles,966
-42585,Organic Extra Firm Tofu,932
-42828,Whipped Cream Cheese,928
-33754,Total 2% with Strawberry Lowfat Greek Strained Yogurt,928
-432,Vanilla Almond Breeze Almond Milk,886
-19348,Fat Free Milk,871
-16185,Sharp Cheddar Cheese,868
-22963,Organic Roasted Turkey Breast,864
-31343,Shredded Mild Cheddar Cheese,831
-46676,Total 0% Nonfat Greek Yogurt,822
-1463,Organic Milk,812
-25659,Organic Coconut Milk,809
-43295,Unsweetened Vanilla Almond Milk,805
-20842,Total 0% Greek Yogurt,799
-38293,Ground Turkey Breast,797
-42701,Organic Sour Cream,793
-36011,Organic Fat Free Milk,792
-39475,Total Greek Strained Yogurt,776
-32655,Organic Large Grade AA Brown Eggs,761
-18531,Organic Heavy Whipping Cream,708
-18523,Total 2% All Natural Greek Strained Yogurt with Honey,701
-1940,Organic 2% Reduced Fat Milk,694
-6046,Boneless Skinless Chicken Breast,690
-23734,Sour Cream,662
-7948,Organic Unsalted Butter,653
-29987,Shredded Mozzarella,649
-4957,Total 2% Lowfat Greek Strained Yogurt With Blueberry,645
-47672,Uncured Hickory Smoked Sunday Bacon,641
-2078,Unsalted Pure Irish Butter,636
-29447,"Milk, Organic, Vitamin D",626
-17600,"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",623
-33120,Organic Egg Whites,616
-33787,Total 2% Lowfat Greek Strained Yogurt with Peach,610
-44987,Heavy Whipping Cream,600
-35108,Salted Butter,576
-28465,Icelandic Style Skyr Blueberry Non-fat Yogurt,568
-10132,Organic American Cheese Singles,566
-41665,Organic Mexican Blend Finely Shredded Cheese,565
-18370,Organic Shredded Mozzarella,564
-40310,Oven Roasted Turkey Breast,563
-17461,Air Chilled Organic Boneless Skinless Chicken Breasts,558
-40571,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,555
-14084,Organic Unsweetened Vanilla Almond Milk,546
-40396,Guacamole,545
-42342,Roasted Turkey Breast,533
-21019,Roasted Red Pepper Hummus,516
-32478,Reduced Fat 2% Milk,515
-17872,Total 2% Lowfat Plain Greek Yogurt,514
-24799,Vanilla Skyr Nonfat Yogurt,507
-42244,Total 2% All Natural Low Fat 2% Milkfat Greek Strained Yogurt,496
-13646,Lemon Hummus,494
-30169,Total 2% All Natural Plain Greek Yogurt,485
-45633,Organic Beef Hot Dogs,483
-46654,Organic Grade A Large Brown Eggs,478
-36865,Non Fat Raspberry Yogurt,466
-16083,Organic Large Brown Eggs,464
-40174,2% Reduced Fat Organic Milk,460
-10017,Tilapia Filet,457
-329,Organic Whole Grassmilk Milk,455
-19677,Original Pure Creamy Almond Milk,455
-27695,Natural Chicken & Sage Breakfast Sausage,454
-651,Organic Salted Butter,449
-28156,Total 0% Nonfat Plain Greek Yogurt,448
-6348,Mini Original Babybel Cheese,444
-39180,Organic Lowfat 1% Milk,440
-6104,Whole Milk Plain Yogurt,434
-5646,Organic Turkey Bacon,434
-13249,Skim Milk,433
-35921,Organic Large Grade A Brown Eggs,417
-20082,Organic Whole Milk with DHA Omega-3,417
-42445,Organic Plain Whole Milk Yogurt,414
-33401,Goat Cheese Crumbles,414
-11422,Plain Greek Yogurt,413
-40332,"Cage Free Brown Eggs-Large, Grade A",413
-2825,Organic Original Hommus,412
-38928,0% Greek Strained Yogurt,410
-4421,Organic Beef Uncured Hot Dogs,405
-19019,Uncured Slow Cooked Ham,404
+product_id,product_name,department_id,department,aisle_id,aisle,count
+27845,Organic Whole Milk,16,dairy eggs,84,milk,4089
+49235,Organic Half & Half,16,dairy eggs,53,cream,2401
+30489,Original Hummus,20,deli,67,fresh dips tapenades,2136
+27086,Half & Half,16,dairy eggs,53,cream,2061
+22035,Organic Whole String Cheese,16,dairy eggs,21,packaged cheese,1783
+35951,Organic Unsweetened Almond Milk,16,dairy eggs,91,soy lactosefree,1671
+25890,Boneless Skinless Chicken Breasts,12,meat seafood,49,packaged poultry,1522
+24838,Unsweetened Almondmilk,16,dairy eggs,91,soy lactosefree,1498
+5785,Organic Reduced Fat 2% Milk,16,dairy eggs,84,milk,1449
+33731,Grated Parmesan,16,dairy eggs,21,packaged cheese,1412
+27344,Uncured Genoa Salami,20,deli,96,lunch meat,1269
+18465,Organic Grade A Free Range Large Brown Eggs,16,dairy eggs,86,eggs,1225
+11520,Large Alfresco Eggs,16,dairy eggs,86,eggs,1214
+23909,2% Reduced Fat Milk,16,dairy eggs,84,milk,1138
+4210,Whole Milk,16,dairy eggs,84,milk,1120
+47144,Unsweetened Original Almond Breeze Almond Milk,16,dairy eggs,91,soy lactosefree,1118
+4799,Shredded Parmesan,16,dairy eggs,21,packaged cheese,1109
+42736,Unsalted Butter,16,dairy eggs,36,butter,1107
+33000,Pure Irish Butter,16,dairy eggs,36,butter,1078
+38689,Organic Reduced Fat Milk,16,dairy eggs,84,milk,1044
+30233,Organic Large Brown Grade AA Cage Free Eggs,16,dairy eggs,86,eggs,1034
+7781,Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,16,dairy eggs,21,packaged cheese,1011
+40604,Feta Cheese Crumbles,16,dairy eggs,21,packaged cheese,966
+42585,Organic Extra Firm Tofu,20,deli,14,tofu meat alternatives,932
+42828,Whipped Cream Cheese,16,dairy eggs,108,other creams cheeses,928
+33754,Total 2% with Strawberry Lowfat Greek Strained Yogurt,16,dairy eggs,120,yogurt,928
+432,Vanilla Almond Breeze Almond Milk,16,dairy eggs,91,soy lactosefree,886
+19348,Fat Free Milk,16,dairy eggs,84,milk,871
+16185,Sharp Cheddar Cheese,16,dairy eggs,21,packaged cheese,868
+22963,Organic Roasted Turkey Breast,20,deli,96,lunch meat,864
+31343,Shredded Mild Cheddar Cheese,16,dairy eggs,21,packaged cheese,831
+46676,Total 0% Nonfat Greek Yogurt,16,dairy eggs,120,yogurt,822
+1463,Organic Milk,16,dairy eggs,84,milk,812
+25659,Organic Coconut Milk,16,dairy eggs,91,soy lactosefree,809
+43295,Unsweetened Vanilla Almond Milk,16,dairy eggs,91,soy lactosefree,805
+20842,Total 0% Greek Yogurt,16,dairy eggs,120,yogurt,799
+38293,Ground Turkey Breast,12,meat seafood,35,poultry counter,797
+42701,Organic Sour Cream,16,dairy eggs,108,other creams cheeses,793
+36011,Organic Fat Free Milk,16,dairy eggs,84,milk,792
+39475,Total Greek Strained Yogurt,16,dairy eggs,120,yogurt,776
+32655,Organic Large Grade AA Brown Eggs,16,dairy eggs,86,eggs,761
+18531,Organic Heavy Whipping Cream,16,dairy eggs,53,cream,708
+18523,Total 2% All Natural Greek Strained Yogurt with Honey,16,dairy eggs,120,yogurt,701
+1940,Organic 2% Reduced Fat Milk,16,dairy eggs,84,milk,694
+6046,Boneless Skinless Chicken Breast,12,meat seafood,35,poultry counter,690
+23734,Sour Cream,16,dairy eggs,108,other creams cheeses,662
+7948,Organic Unsalted Butter,16,dairy eggs,36,butter,653
+29987,Shredded Mozzarella,16,dairy eggs,21,packaged cheese,649
+4957,Total 2% Lowfat Greek Strained Yogurt With Blueberry,16,dairy eggs,120,yogurt,645
+47672,Uncured Hickory Smoked Sunday Bacon,12,meat seafood,106,hot dogs bacon sausage,641
+2078,Unsalted Pure Irish Butter,16,dairy eggs,36,butter,636
+29447,"Milk, Organic, Vitamin D",16,dairy eggs,84,milk,626
+17600,"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",16,dairy eggs,120,yogurt,623
+33120,Organic Egg Whites,16,dairy eggs,86,eggs,616
+33787,Total 2% Lowfat Greek Strained Yogurt with Peach,16,dairy eggs,120,yogurt,610
+44987,Heavy Whipping Cream,16,dairy eggs,53,cream,600
+35108,Salted Butter,16,dairy eggs,36,butter,576
+28465,Icelandic Style Skyr Blueberry Non-fat Yogurt,16,dairy eggs,120,yogurt,568
+10132,Organic American Cheese Singles,16,dairy eggs,21,packaged cheese,566
+41665,Organic Mexican Blend Finely Shredded Cheese,16,dairy eggs,21,packaged cheese,565
+18370,Organic Shredded Mozzarella,16,dairy eggs,21,packaged cheese,564
+40310,Oven Roasted Turkey Breast,20,deli,96,lunch meat,563
+17461,Air Chilled Organic Boneless Skinless Chicken Breasts,12,meat seafood,35,poultry counter,558
+40571,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,16,dairy eggs,120,yogurt,555
+14084,Organic Unsweetened Vanilla Almond Milk,16,dairy eggs,91,soy lactosefree,546
+40396,Guacamole,20,deli,67,fresh dips tapenades,545
+42342,Roasted Turkey Breast,20,deli,96,lunch meat,533
+21019,Roasted Red Pepper Hummus,20,deli,67,fresh dips tapenades,516
+32478,Reduced Fat 2% Milk,16,dairy eggs,84,milk,515
+17872,Total 2% Lowfat Plain Greek Yogurt,16,dairy eggs,120,yogurt,514
+24799,Vanilla Skyr Nonfat Yogurt,16,dairy eggs,120,yogurt,507
+42244,Total 2% All Natural Low Fat 2% Milkfat Greek Strained Yogurt,16,dairy eggs,120,yogurt,496
+13646,Lemon Hummus,20,deli,67,fresh dips tapenades,494
+30169,Total 2% All Natural Plain Greek Yogurt,16,dairy eggs,120,yogurt,485
+45633,Organic Beef Hot Dogs,12,meat seafood,106,hot dogs bacon sausage,483
+46654,Organic Grade A Large Brown Eggs,16,dairy eggs,86,eggs,478
+36865,Non Fat Raspberry Yogurt,16,dairy eggs,120,yogurt,466
+16083,Organic Large Brown Eggs,16,dairy eggs,86,eggs,464
+40174,2% Reduced Fat Organic Milk,16,dairy eggs,84,milk,460
+10017,Tilapia Filet,12,meat seafood,39,seafood counter,457
+329,Organic Whole Grassmilk Milk,16,dairy eggs,84,milk,455
+19677,Original Pure Creamy Almond Milk,16,dairy eggs,91,soy lactosefree,455
+27695,Natural Chicken & Sage Breakfast Sausage,12,meat seafood,106,hot dogs bacon sausage,454
+651,Organic Salted Butter,16,dairy eggs,36,butter,449
+28156,Total 0% Nonfat Plain Greek Yogurt,16,dairy eggs,120,yogurt,448
+6348,Mini Original Babybel Cheese,16,dairy eggs,21,packaged cheese,444
+39180,Organic Lowfat 1% Milk,16,dairy eggs,84,milk,440
+6104,Whole Milk Plain Yogurt,16,dairy eggs,120,yogurt,434
+5646,Organic Turkey Bacon,12,meat seafood,106,hot dogs bacon sausage,434
+13249,Skim Milk,16,dairy eggs,84,milk,433
+35921,Organic Large Grade A Brown Eggs,16,dairy eggs,86,eggs,417
+20082,Organic Whole Milk with DHA Omega-3,16,dairy eggs,84,milk,417
+42445,Organic Plain Whole Milk Yogurt,16,dairy eggs,120,yogurt,414
+33401,Goat Cheese Crumbles,16,dairy eggs,21,packaged cheese,414
+11422,Plain Greek Yogurt,16,dairy eggs,120,yogurt,413
+40332,"Cage Free Brown Eggs-Large, Grade A",16,dairy eggs,86,eggs,413
+2825,Organic Original Hommus,20,deli,67,fresh dips tapenades,412
+38928,0% Greek Strained Yogurt,16,dairy eggs,120,yogurt,410
+4421,Organic Beef Uncured Hot Dogs,12,meat seafood,106,hot dogs bacon sausage,405
+19019,Uncured Slow Cooked Ham,20,deli,96,lunch meat,404

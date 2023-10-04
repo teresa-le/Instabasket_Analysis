@@ -1,101 +1,101 @@
-product_id,product_name,count
-9076,Blueberries,1759
-20995,Organic Broccoli Florets,1040
-24489,Organic Whole Strawberries,983
-17948,Frozen Organic Wild Blueberries,921
-46802,Pineapple Chunks,701
-14678,Organic Frozen Peas,591
-37158,Chicken & Maple Breakfast Sausage,566
-1158,Mango Chunks,535
-42450,Macaroni & Cheese,525
-28934,Frozen Broccoli Florets,483
-40545,Berry Medley,464
-49075,Organic Brown Rice,443
-7963,Gluten Free Whole Grain Bread,434
-16965,Chocolate Ice Cream,406
-24561,Organic Cheese Frozen Pizza,388
-32691,Vanilla Ice Cream,361
-18918,Organic Chopped Spinach,359
-32433,Green Peas,352
-9825,Organic Multigrain Waffles,320
-20345,Thin Crust Pepperoni Pizza,320
-35887,Organic Mixed Vegetables,318
-43504,Organic Chicken Strips,314
-34584,Organic Sliced Peaches,311
-2228,Organic Frozen Mango Chunks,311
-2452,Naturals Chicken Nuggets,299
-28553,Whole Strawberries,270
-9515,Natural Classic Pork Breakfast Sausage,264
-23236,Chopped Spinach,264
-12276,Chocolate Chip Cookie Dough Ice Cream,263
-311,Naturals Savory Turkey Breakfast Sausage,263
-34217,Pesto Tortellini  Bowls,260
-17652,Air Chilled Breaded Chicken Breast Nuggets,255
-34466,Sweet Potatoes,254
-30696,Eggo Homestyle Waffles,253
-31766,Cheese Pizza Snacks,249
-25753,Organic Homestyle Waffles,246
-11440,Chicken Breast Tenders Breaded,245
-2326,Organic Blueberry Waffles,238
-31869,Organic Edamame,237
-47792,Organic Beans & Rice Cheddar Cheese Burrito,232
-1215,Kidz All Natural Baked Chicken Nuggets,224
-24082,Organic Dark Sweet Cherries,223
-26128,Organic Mango Chunks,219
-38274,Ice Cream Sandwiches Vanilla,216
-28123,Organic Cut Green Beans,215
-38944,Seven Grain Crispy Tenders,215
-26914,Bean & Cheese Burrito,209
-9124,Broccoli & Cheddar Bake Meal Bowl,208
-5449,Margherita Pizza,207
-17807,Gluten Free Blueberry Waffles,206
-20754,Mediterranean Mint Gelato,204
-41319,Sea Salt Caramel Gelato,203
-24010,Wheat Gluten Free Waffles,201
-40002,Strawberry Ice Cream,197
-9741,Cheese Pizza,193
-13966,Chicken Pot Pie,189
-46175,Half Baked® Ice Cream,184
-48171,Shredded Hash Browns,184
-46346,Sweet Potato Fries with Sea Salt,183
-23554,Organic Vanilla Bean Ice Cream,181
-39121,Organic Jasmine Rice,179
-47492,Organic Berry Blend,178
-5959,Four Cheese Thin Crust Pizza,176
-45681,Americone Dream® Ice Cream,175
-2361,Mint Chip,174
-12144,Gluten-Free Chicken Nuggets,171
-8022,Spinach Pizza,169
-48720,Shoestring Fries,169
-48523,Birthday Cake Light Ice Cream,165
-48287,Natural Chicken & Maple Breakfast Sausage Patty,165
-24231,Tahitian Vanilla Bean Gelato,162
-21463,Vanilla Bean Light Ice Cream,161
-14881,Organic Yukon Select Fries,161
-13885,Caramel Cookie Crunch Gelato,161
-9595,Organic Homestyle Mini Waffles,160
-162,Organic Mini Homestyle Waffles,159
-45613,Pad Thai,158
-49416,Organic Gluten Free Non-Dairy Beans & Rice Burrito,156
-20113,Organic Gluten Free Buckwheat Wildberry Waffles,156
-1516,Organic Acai Berry Smoothie Packs,155
-9390,Frozen Peaches,153
-27509,Organic Seasoned Yukon Select Potatoes Hashed Browns,152
-10199,Watermelon Agave Frozen Pops,150
-20327,Organic All Natural Blueberry Mini Waffles,148
-37250,Cut Green Beans,147
-8012,Pizza 4 Cheese,143
-38374,Milk and Cookies Ice Cream,142
-43908,Butternut Squash Ravioli,137
-22559,Kitchen Cheese Enchilada,136
-436,Petite Brussels Sprouts,136
-7862,Raw Shrimp,131
-43889,Dark Chocolate Covered Banana,131
-26298,Thin Crust Margherita Pizza with Fresh Mozzarella & Basil,128
-1398,Ice Bag,128
-28682,Chocolate Peanut Butter Cup Gelato,128
-8638,Vanilla Milk Chocolate Almond Ice Cream Bars,127
-4932,Vanilla Bean Ice Cream,127
-45061,Natural Vanilla Ice Cream,127
-39024,Edamame In Pod,127
-47993,Cherry Garcia Ice Cream,127
+product_id,product_name,department_id,department,aisle_id,aisle,count
+9076,Blueberries,1,frozen,116,frozen produce,1759
+20995,Organic Broccoli Florets,1,frozen,116,frozen produce,1040
+24489,Organic Whole Strawberries,1,frozen,116,frozen produce,983
+17948,Frozen Organic Wild Blueberries,1,frozen,116,frozen produce,921
+46802,Pineapple Chunks,1,frozen,116,frozen produce,701
+14678,Organic Frozen Peas,1,frozen,116,frozen produce,591
+37158,Chicken & Maple Breakfast Sausage,1,frozen,52,frozen breakfast,566
+1158,Mango Chunks,1,frozen,116,frozen produce,535
+42450,Macaroni & Cheese,1,frozen,38,frozen meals,525
+28934,Frozen Broccoli Florets,1,frozen,116,frozen produce,483
+40545,Berry Medley,1,frozen,116,frozen produce,464
+49075,Organic Brown Rice,1,frozen,38,frozen meals,443
+7963,Gluten Free Whole Grain Bread,1,frozen,58,frozen breads doughs,434
+16965,Chocolate Ice Cream,1,frozen,37,ice cream ice,406
+24561,Organic Cheese Frozen Pizza,1,frozen,79,frozen pizza,388
+32691,Vanilla Ice Cream,1,frozen,37,ice cream ice,361
+18918,Organic Chopped Spinach,1,frozen,116,frozen produce,359
+32433,Green Peas,1,frozen,116,frozen produce,352
+9825,Organic Multigrain Waffles,1,frozen,52,frozen breakfast,320
+20345,Thin Crust Pepperoni Pizza,1,frozen,79,frozen pizza,320
+35887,Organic Mixed Vegetables,1,frozen,116,frozen produce,318
+43504,Organic Chicken Strips,1,frozen,34,frozen meat seafood,314
+34584,Organic Sliced Peaches,1,frozen,116,frozen produce,311
+2228,Organic Frozen Mango Chunks,1,frozen,116,frozen produce,311
+2452,Naturals Chicken Nuggets,1,frozen,129,frozen appetizers sides,299
+28553,Whole Strawberries,1,frozen,116,frozen produce,270
+9515,Natural Classic Pork Breakfast Sausage,1,frozen,52,frozen breakfast,264
+23236,Chopped Spinach,1,frozen,116,frozen produce,264
+12276,Chocolate Chip Cookie Dough Ice Cream,1,frozen,37,ice cream ice,263
+311,Naturals Savory Turkey Breakfast Sausage,1,frozen,52,frozen breakfast,263
+34217,Pesto Tortellini  Bowls,1,frozen,38,frozen meals,260
+17652,Air Chilled Breaded Chicken Breast Nuggets,1,frozen,129,frozen appetizers sides,255
+34466,Sweet Potatoes,1,frozen,116,frozen produce,254
+30696,Eggo Homestyle Waffles,1,frozen,52,frozen breakfast,253
+31766,Cheese Pizza Snacks,1,frozen,129,frozen appetizers sides,249
+25753,Organic Homestyle Waffles,1,frozen,52,frozen breakfast,246
+11440,Chicken Breast Tenders Breaded,1,frozen,129,frozen appetizers sides,245
+2326,Organic Blueberry Waffles,1,frozen,52,frozen breakfast,238
+31869,Organic Edamame,1,frozen,116,frozen produce,237
+47792,Organic Beans & Rice Cheddar Cheese Burrito,1,frozen,38,frozen meals,232
+1215,Kidz All Natural Baked Chicken Nuggets,1,frozen,129,frozen appetizers sides,224
+24082,Organic Dark Sweet Cherries,1,frozen,116,frozen produce,223
+26128,Organic Mango Chunks,1,frozen,116,frozen produce,219
+38274,Ice Cream Sandwiches Vanilla,1,frozen,37,ice cream ice,216
+28123,Organic Cut Green Beans,1,frozen,116,frozen produce,215
+38944,Seven Grain Crispy Tenders,1,frozen,42,frozen vegan vegetarian,215
+26914,Bean & Cheese Burrito,1,frozen,38,frozen meals,209
+9124,Broccoli & Cheddar Bake Meal Bowl,1,frozen,38,frozen meals,208
+5449,Margherita Pizza,1,frozen,79,frozen pizza,207
+17807,Gluten Free Blueberry Waffles,1,frozen,52,frozen breakfast,206
+20754,Mediterranean Mint Gelato,1,frozen,37,ice cream ice,204
+41319,Sea Salt Caramel Gelato,1,frozen,37,ice cream ice,203
+24010,Wheat Gluten Free Waffles,1,frozen,52,frozen breakfast,201
+40002,Strawberry Ice Cream,1,frozen,37,ice cream ice,197
+9741,Cheese Pizza,1,frozen,79,frozen pizza,193
+13966,Chicken Pot Pie,1,frozen,38,frozen meals,189
+46175,Half Baked® Ice Cream,1,frozen,37,ice cream ice,184
+48171,Shredded Hash Browns,1,frozen,129,frozen appetizers sides,184
+46346,Sweet Potato Fries with Sea Salt,1,frozen,129,frozen appetizers sides,183
+23554,Organic Vanilla Bean Ice Cream,1,frozen,37,ice cream ice,181
+39121,Organic Jasmine Rice,1,frozen,38,frozen meals,179
+47492,Organic Berry Blend,1,frozen,116,frozen produce,178
+5959,Four Cheese Thin Crust Pizza,1,frozen,79,frozen pizza,176
+45681,Americone Dream® Ice Cream,1,frozen,37,ice cream ice,175
+2361,Mint Chip,1,frozen,37,ice cream ice,174
+12144,Gluten-Free Chicken Nuggets,1,frozen,34,frozen meat seafood,171
+8022,Spinach Pizza,1,frozen,79,frozen pizza,169
+48720,Shoestring Fries,1,frozen,129,frozen appetizers sides,169
+48523,Birthday Cake Light Ice Cream,1,frozen,37,ice cream ice,165
+48287,Natural Chicken & Maple Breakfast Sausage Patty,1,frozen,34,frozen meat seafood,165
+24231,Tahitian Vanilla Bean Gelato,1,frozen,37,ice cream ice,162
+21463,Vanilla Bean Light Ice Cream,1,frozen,37,ice cream ice,161
+14881,Organic Yukon Select Fries,1,frozen,129,frozen appetizers sides,161
+13885,Caramel Cookie Crunch Gelato,1,frozen,37,ice cream ice,161
+9595,Organic Homestyle Mini Waffles,1,frozen,52,frozen breakfast,160
+162,Organic Mini Homestyle Waffles,1,frozen,52,frozen breakfast,159
+45613,Pad Thai,1,frozen,38,frozen meals,158
+49416,Organic Gluten Free Non-Dairy Beans & Rice Burrito,1,frozen,38,frozen meals,156
+20113,Organic Gluten Free Buckwheat Wildberry Waffles,1,frozen,52,frozen breakfast,156
+1516,Organic Acai Berry Smoothie Packs,1,frozen,116,frozen produce,155
+9390,Frozen Peaches,1,frozen,116,frozen produce,153
+27509,Organic Seasoned Yukon Select Potatoes Hashed Browns,1,frozen,129,frozen appetizers sides,152
+10199,Watermelon Agave Frozen Pops,1,frozen,37,ice cream ice,150
+20327,Organic All Natural Blueberry Mini Waffles,1,frozen,52,frozen breakfast,148
+37250,Cut Green Beans,1,frozen,116,frozen produce,147
+8012,Pizza 4 Cheese,1,frozen,79,frozen pizza,143
+38374,Milk and Cookies Ice Cream,1,frozen,37,ice cream ice,142
+43908,Butternut Squash Ravioli,1,frozen,38,frozen meals,137
+22559,Kitchen Cheese Enchilada,1,frozen,38,frozen meals,136
+436,Petite Brussels Sprouts,1,frozen,116,frozen produce,136
+7862,Raw Shrimp,1,frozen,34,frozen meat seafood,131
+43889,Dark Chocolate Covered Banana,1,frozen,119,frozen dessert,131
+26298,Thin Crust Margherita Pizza with Fresh Mozzarella & Basil,1,frozen,79,frozen pizza,128
+1398,Ice Bag,1,frozen,37,ice cream ice,128
+28682,Chocolate Peanut Butter Cup Gelato,1,frozen,37,ice cream ice,128
+8638,Vanilla Milk Chocolate Almond Ice Cream Bars,1,frozen,37,ice cream ice,127
+4932,Vanilla Bean Ice Cream,1,frozen,37,ice cream ice,127
+45061,Natural Vanilla Ice Cream,1,frozen,37,ice cream ice,127
+39024,Edamame In Pod,1,frozen,116,frozen produce,127
+47993,Cherry Garcia Ice Cream,1,frozen,37,ice cream ice,127
