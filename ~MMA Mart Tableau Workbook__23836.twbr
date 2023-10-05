@@ -939,7 +939,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='37'>
-    <window class='worksheet' name='% Aisles'>
+    <window class='worksheet' maximized='true' name='% Aisles'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1052,7 +1052,7 @@
       </cards>
       <simple-id uuid='{7B60C27D-5ADE-47F8-8019-A20454E7DE28}' />
     </window>
-    <window class='worksheet' maximized='true' name='Market Basket Analysis - Departments'>
+    <window class='worksheet' name='Market Basket Analysis - Departments'>
       <cards>
         <edge name='left'>
           <strip size='160'>
