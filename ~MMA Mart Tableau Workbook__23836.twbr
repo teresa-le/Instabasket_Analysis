@@ -623,6 +623,9 @@
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[none:product_name:nk]' value='272' />
+          </style-rule>
           <style-rule element='mark'>
             <encoding attr='size-bar' field='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[__tableau_internal_object_id__].[cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
             <encoding attr='size-bar' field='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[__tableau_internal_object_id__].[pcrk:cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
@@ -937,9 +940,72 @@
       </table>
       <simple-id uuid='{0C61EC8A-3C7F-4AA3-ADD1-166EAEE80390}' />
     </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Aisles &amp; Departments</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_mma_mart (clean_mma_mart)' name='federated.1tyaahn07cczxa13lrmmk1j5x5fw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tyaahn07cczxa13lrmmk1j5x5fw'>
+            <_.fcp.ObjectModelTableType.true...column caption='clean_mma_mart' datatype='table' name='[__tableau_internal_object_id__].[clean!mma!mart_645E2988F9794938B6B4A029C0781F73]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[clean!mma!mart_645E2988F9794938B6B4A029C0781F73]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' pivot='key' type='quantitative' />
+            <column caption='Aisle' datatype='string' name='[aisle]' role='dimension' type='nominal' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column-instance column='[aisle]' derivation='None' name='[none:aisle:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='clean_mma_mart' datatype='integer' name='[__tableau_internal_object_id__].[clean!mma!mart_645E2988F9794938B6B4A029C0781F73]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[none:aisle:nk]' value='284' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[__tableau_internal_object_id__].[cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[__tableau_internal_object_id__].[cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' />
+              <text column='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[__tableau_internal_object_id__].[cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tyaahn07cczxa13lrmmk1j5x5fw].[none:department:nk] / [federated.1tyaahn07cczxa13lrmmk1j5x5fw].[none:aisle:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5ECA44E5-1AAA-4E34-953A-2D16BA5DD060}' />
+    </worksheet>
   </worksheets>
   <windows source-height='37'>
-    <window class='worksheet' maximized='true' name='% Aisles'>
+    <window class='worksheet' name='% Aisles'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1024,7 +1090,7 @@
       </cards>
       <simple-id uuid='{61659736-57A9-46E7-A45B-61BC7D3532BE}' />
     </window>
-    <window class='worksheet' name='Market Basket Analysis - Aisles'>
+    <window class='worksheet' maximized='true' name='Market Basket Analysis - Aisles'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1079,6 +1145,34 @@
         </edge>
       </cards>
       <simple-id uuid='{DEEF203C-A3DC-48E6-9C54-34E98EF2A2C7}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tyaahn07cczxa13lrmmk1j5x5fw].[__tableau_internal_object_id__].[cnt:clean!mma!mart_645E2988F9794938B6B4A029C0781F73:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C34F4FE2-170A-45C0-9259-F21D76984B09}' />
     </window>
   </windows>
 </workbook>
