@@ -24,13 +24,6 @@ Excel, Python, Tableau, Data Cleaning, Data Analysis, Data Visualization
 ## Actions 
 
 ### Assumptions & Constraints 
-There were some constraints that are our solution needed to meet, and we made made the following assupmtions: 
-* Size of Instabasket Aisle: Only 1000 products can be included in total. (3% of the total) 
-* Frozen Products: All items categorized under the 'Frozen' department are treated as frozen products. Only 100 frozen products can be included.  
-* Refrigerated Products: Refrigerated products include items from the 'Dairy Eggs,' 'Meat Seafood,' and 'Refrigerated Beverages' departments. Only 100 refrigerated products can be included. 
-* Data Cleaning: Orders with missing department or aisle information have been excluded from the analysis for accuracy.
-* Substitutions: Based on our comprehensive analysis of various datasets, particularly in high-demand departments like produce and dairy & eggs, we consistently observed that many products have suitable substitutes or equivalent alternatives available. This finding indicates that we have significant opportunities to offer customers alternative choices when specific items are unavailable, thereby enhancing their shopping experience and ensuring order fulfillment. Exploration in this regard would be helpful. 
-
 We conducted an exploratory analysis and cleaned the data using Python and Excel. We then used Python to help select our top 1000 products. For our solution, we used the inverted Pareto strategy. Rather than focusing on the lower-performing 20%, we prioritize the essential 80%, specifically targeting the top 83% of products across categories, departments, aisles, and our entire product range. By embracing this inverted Pareto 80/20 principle, concentrating on the most popular items within departments, aisles, and product names, we've significantly expanded our product coverage while maintaining a high fill-in rate, transcending the limitations of relying solely on product popularity.
 
 
