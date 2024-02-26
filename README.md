@@ -36,3 +36,5 @@ We estimate on average, we would be saving 15 minutes per order and on average, 
 
 To view a copy of the complete presentation, you can go <a href="https://docs.google.com/presentation/d/1vS8dmFt5MpRSoHzwUz5GZ9kqWjYAZXvK/edit?usp=sharing&ouid=108620003158556993566&rtpof=true&sd=true">here</a>.
 
+## Next Steps 
+Due to the nature of the datathon, we were limited in terms of how much time we had to complete the project. To expand and improve upon our project, our next steps are to examine other methodologies for selecting the top 1000 products e.g. using NLP. 
